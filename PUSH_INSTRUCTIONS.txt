@@ -1,0 +1,70 @@
+=========================================
+  INSTRUCCIONES PARA HACER PUSH
+=========================================
+
+El repositorio está listo para hacer push, pero necesitas autenticarte con la cuenta kunio83.
+
+OPCION 1 - GitHub CLI (Más fácil):
+-----------------------------------
+1. Si no tienes GitHub CLI, descárgalo de: https://cli.github.com/
+2. Ejecuta en PowerShell o CMD:
+
+   gh auth login
+
+3. Selecciona:
+   - GitHub.com
+   - HTTPS
+   - Login with a web browser
+
+4. Sigue las instrucciones en el navegador con la cuenta kunio83
+
+5. Luego ejecuta:
+   cd "C:\Users\marco\OneDrive\Documentos\Freelance\Optipadel\OptiPadel-Public"
+   git push -u origin main
+
+
+OPCION 2 - Usar el Personal Access Token directamente:
+-------------------------------------------------------
+1. Abre PowerShell o CMD
+2. Ejecuta:
+
+   cd "C:\Users\marco\OneDrive\Documentos\Freelance\Optipadel\OptiPadel-Public"
+   git push -u origin main
+
+3. Cuando te pida credenciales:
+   Username: kunio83
+   Password: [PEGA TU PAT AQUI - el mismo que usaste para PUBLIC_REPO_PAT]
+
+
+OPCION 3 - Usar Git Credential Manager:
+---------------------------------------
+1. Asegúrate de tener Git Credential Manager instalado
+2. Ejecuta:
+
+   git credential-manager-core erase https://github.com
+
+3. Luego intenta el push de nuevo:
+
+   git push -u origin main
+
+4. Se abrirá una ventana del navegador para autenticarte
+
+
+DESPUES DEL PUSH EXITOSO:
+--------------------------
+Verás algo como:
+
+  To https://github.com/kunio83/OptiPadel-Public.git
+   * [new branch]      main -> main
+  Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+¡Y el sistema estará 100% operativo!
+
+Para probar, ve al repo padel-app y haz un cambio en mobile/:
+   cd padel-app/mobile
+   echo "// Test" >> App.tsx
+   git add .
+   git commit -m "test: trigger APK build"
+   git push
+
+=========================================
