@@ -5,7 +5,13 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+.vs/
 
 # Temporary files
 *.tmp
 *.log
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
