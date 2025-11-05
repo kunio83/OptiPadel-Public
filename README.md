@@ -17,7 +17,14 @@
 ### 🆕 Última Versión
 
 <!-- LATEST_VERSION_START -->
-Todavía no hay versiones publicadas. La primera versión aparecerá aquí automáticamente.
+**[Beta_1.0](https://github.com/kunio83/OptiPadel-Public/releases/tag/Beta_1.0)** - 2025-11-04 23:45:05
+
+[![Descargar APK](https://img.shields.io/badge/Descargar-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/kunio83/OptiPadel-Public/raw/main/releases/Beta_1.0/optipadel-Beta_1.0.apk)
+
+```
+Tamaño: 4.0K
+Fecha: 2025-11-04 23:45:05
+```
 <!-- LATEST_VERSION_END -->
 
 ---
@@ -27,6 +34,7 @@ Todavía no hay versiones publicadas. La primera versión aparecerá aquí autom
 <!-- APK_VERSIONS_START -->
 | Versión | Fecha | Tamaño | Descarga |
 | --- | --- | --- | --- |
+| [Beta_1.0](https://github.com/kunio83/OptiPadel-Public/releases/tag/Beta_1.0) | 2025-11-04 23:45:05 | 4.0K | [📥 Descargar](https://github.com/kunio83/OptiPadel-Public/raw/main/releases/Beta_1.0/optipadel-Beta_1.0.apk) |
 <!-- APK_VERSIONS_END -->
 
 ---
