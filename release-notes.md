@@ -1,8 +1,8 @@
 🚀 **OptiPadel Android APK**
 
-**Versión:** Beta_1.0
-**Fecha:** 2025-11-04 23:45:05
-**Commit:** d8f477183959fd54000b38a21c0f06d0efe8cd0c
+**Versión:** Beta_1.1
+**Fecha:** 2025-11-05 21:58:36
+**Commit:** cc547b06dc2f0d563d41e2df85a83ae7029d960b
 
 ## 📱 Instalación Rápida
 
@@ -24,7 +24,7 @@
 
 ## 📥 Descarga Directa
 
-[⬇️ Descargar optipadel-Beta_1.0.apk](https://github.com/kunio83/OptiPadel-Public/raw/main/releases/Beta_1.0/optipadel-Beta_1.0.apk)
+[⬇️ Descargar optipadel-Beta_1.1.apk](https://github.com/kunio83/OptiPadel-Public/raw/main/releases/Beta_1.1/optipadel-Beta_1.1.apk)
 
 ---
 
